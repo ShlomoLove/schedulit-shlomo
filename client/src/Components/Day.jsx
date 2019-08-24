@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from '../styles/Day.css';
-import classnames from 'classnames';
+import React from "react";
+import styles from "../styles/Day.css";
+import classnames from "classnames";
 
 class Day extends React.Component {
   constructor(props) {
@@ -27,13 +27,11 @@ class Day extends React.Component {
         onClick={() => this.props.addDayToSet(this.props.date)}
         className={this.getClassNames()}
       >
-        <div className={styles['set' + this.props.set]}>
-          <div className={styles.date}>
-            {this.props.date.getDate()}
-          </div>
+        <div className={styles["set" + this.props.set]}>
+          <div className={styles.date}>{this.props.date.getDate()}</div>
         </div>
       </div>
-    )
+    );
   }
 }
 
