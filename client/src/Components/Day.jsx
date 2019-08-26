@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Day.css";
+import styles from "../styles/day.css";
 import classnames from "classnames";
 
 class Day extends React.Component {

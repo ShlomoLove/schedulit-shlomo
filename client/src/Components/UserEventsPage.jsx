@@ -1,6 +1,6 @@
 import React from "react";
 import EventCard from "./EventCard.jsx";
-import styles from "../styles/Events.css";
+import styles from "../styles/events.css";
 
 const UserEventsPage = props => {
   return (

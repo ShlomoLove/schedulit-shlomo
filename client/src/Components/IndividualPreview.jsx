@@ -3,7 +3,7 @@ import axios from "axios";
 
 import SelectableTimeSlot from "./SelectableTimeSlot";
 import HourLabel from "./HourLabel";
-import styles from "../styles/IndividualPreview.css";
+import styles from "../styles/individualPreview.css";
 import TimeAxis from "./TimeAxis";
 
 class IndividualPreview extends React.Component {
