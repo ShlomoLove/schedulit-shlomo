@@ -10,8 +10,11 @@ class LoginPage extends Component {
     return (
       <div className={styles.container}>
         <div className={styles.inner}>
-          <div className={styles.schedulIt} >
-            <img src="greenLogo.png" style={{ width: '1.5em', height: '1.5em', padding: '0.3em' }}></img>
+          <div className={styles.schedulIt}>
+            <img
+              src="https://s3-us-west-1.amazonaws.com/schedulitbucket/greenLogo.png"
+              style={{ width: "1.5em", height: "1.5em", padding: "0.3em" }}
+            ></img>
             <div>Schedulit</div>
           </div>
           <div className={styles.loginCenter}>
@@ -19,12 +22,15 @@ class LoginPage extends Component {
               className={styles.button}
               onClick={this.props.openLoginPopup}
             >
-              <img src ="GoogleButton.png" width="240" height="50"></img>
+              <img
+                src="https://s3-us-west-1.amazonaws.com/schedulitbucket/GoogleButton.png"
+                width="240"
+                height="50"
+              ></img>
             </button>
           </div>
         </div>
       </div>
-
     );
   }
 }
