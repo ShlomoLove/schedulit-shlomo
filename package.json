@@ -21,7 +21,7 @@
   "homepage": "https://github.com/schedulit/schedulit-app#readme",
   "dependencies": {
     "@babel/preset-es2015": "^7.0.0-beta.53",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.5",
     "body-parser": "^1.19.0",
     "classnames": "^2.2.6",
