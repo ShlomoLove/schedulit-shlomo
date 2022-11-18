@@ -58,7 +58,7 @@
     "babel-loader": "^8.0.6",
     "react-devtools": "^3.6.3",
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7",
+    "webpack-cli": "^3.3.12",
     "webpack-combine-loaders": "^2.0.4"
   }
 }
